@@ -27,5 +27,10 @@ namespace ListadeCompras
         {
             listBox1.Items.RemoveAt(listBox1.SelectedIndex);
         }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            label2.Text = DateTime.Now.ToLongTimeString();
+        }
     }
 }
