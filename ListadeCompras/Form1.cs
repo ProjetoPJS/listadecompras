@@ -19,6 +19,8 @@ namespace ListadeCompras
         private void button1_Click(object sender, EventArgs e)
         {
             listBox1.Items.Add(textBox1.Text);
+            textBox1.Text = "";
+            textBox1.Focus();
         }
 
         private void button2_Click(object sender, EventArgs e)
