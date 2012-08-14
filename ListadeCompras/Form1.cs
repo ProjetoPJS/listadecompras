@@ -32,5 +32,10 @@ namespace ListadeCompras
         {
             label2.Text = DateTime.Now.ToLongTimeString();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            listBox1.Items.Clear();
+        }
     }
 }
